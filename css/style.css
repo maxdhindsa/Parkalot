@@ -326,7 +326,7 @@ li{list-style-type:none}
   margin-top: 20px;
   font-size: 20px;
   line-height: 1.46428571;
-  font-weight: 300;
+  font-weight: 400;
 }
 @media (min-width: 768px) {
   .lead {
