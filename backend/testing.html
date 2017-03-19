@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="frm1" action="/action_page.php" method="get">
+  First name: <input id ="fname" type="text" name="fname" value="Donald"><br>
+  Last name: <input id="fname" type="text" name="lname" value="Duck"><br><br>
+  <input type="submit" value="Submit" onClick="functionTwo()">
+</form>
+
+<p>Click "Try it" to display the value of the form method.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("fname").;
+    document.getElementById("demo").innerHTML = x;
+    var y = document.getElementById("lname");
+    document.getElementById("demo").innerHTML = y;
+}
+
+function functionTwo() {
+    var x = document.getElementById("fname").;
+    document.getElementById("demo").innerHTML = x;
+    var y = document.getElementById("lname");
+    document.getElementById("demo").innerHTML = y;
+}
+</script>
+
+</body>
+</html>
