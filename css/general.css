@@ -224,14 +224,14 @@ color: #ECEBEB;
 }
 
 .navbar-default .navbar-brand {
-color: #ffffff;
+color: #34495E;
 }
 .navbar-default .navbar-brand:hover {
-color: #ECEBEB;
+color: #2C3E51;
 }
 
 .navbar-brand {
-	font-family: arvo;
+	font-family: Arvo, sans-serif;
 	letter-spacing: 3px;
 	font-weight: 400 !important;
 }
